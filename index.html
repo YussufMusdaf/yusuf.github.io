@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>My Project Ideas</h1>
+            <p>These are my project ideas I'm working on:</p>
+            <ul>
+                <li>Designing a system</li>
+                <li>Optimizing routes</li>
+                <li>Integration</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Filter Projects</h2>
+            <input type="text" id="projectFilter" placeholder="Search projects...">
+            <button onclick="filterProjects()">Filter</button>
+            <ul id="projectList">
+                <li>Designing a system</li>
+                <li>Optimizing routes</li>
+                <li>Integration</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
